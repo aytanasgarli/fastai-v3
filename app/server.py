@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://colab.research.google.com/drive/1adREr_Skbu5RqG2CCKrtUYgN5KmU_Yvw?usp=sharing'
 export_file_name = 'trained_model.pkl'
 
-classes = ['pos', 'neg']
+classes = ['positive', 'negative']
 path = Path(__file__).parent
 
 app = Starlette()
