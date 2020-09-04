@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://colab.research.google.com/drive/1adREr_Skbu5RqG2CCKrtUYgN5KmU_Yvw?usp=sharing'
-export_file_name = 'trained_model.pkl'
+export_file_name = 'export_classifier.pkl'
 
 classes = ['positive', 'negative']
 path = Path(__file__).parent
