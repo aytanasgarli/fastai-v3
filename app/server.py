@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=13F9arG4ghgTiatISoyPYvZC_9n7W-Z8J'
-export_file_name = 'export_classifier.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1JY3m8e3kyjet3EENvSDhJQ08LoSKEpNO'
+export_file_name = 'trained_model.pkl'
 
 classes = ['positive', 'negative']
 path = Path(__file__).parent
